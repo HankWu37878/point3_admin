@@ -17,8 +17,8 @@ function AuthInput({ label, type, value, setValue }: Props) {
       onChange={(e) => {
         setValue(e.target.value);
       }}
-      className="w-full rounded-md lg:text-xl text-sm p-2"
-      placeholder={"請輸入" + label}
+      className="w-full rounded-md lg:text-xl text-sm py-4 ml-2 px-2"
+      placeholder={label}
     />
   );
 }
